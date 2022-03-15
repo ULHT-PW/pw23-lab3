@@ -1,6 +1,6 @@
 # pw-lab4-2022
 
-### PRopriedades CSS
+### Propriedades CSS
 #### Fontes
 * escolha e utilize uma fonte Google
 * formate com todas as propriedades dos slides (font size, style, wheight, variant, e text-decoration, transform, align, leeter-spacing, word-spacing, line-height e vertical-align)
@@ -39,9 +39,23 @@ Observe o layout em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
 
 ![Asymmetric-design](https://user-images.githubusercontent.com/42048382/158484887-93d19749-13b2-41e6-8906-f6322a668b47.jpg)
 
-Usando CSS grid, propriedade <code>display: grid</code>, crie um elemento replicando o layout encima, mas para 6 destinos em Portugal à sua escolha. PAra tal, siga os seguitnes passos:
-* escolha 5 destinos em Portugal, escolhendo uma fotografia para cada um. As das fotos deveráo ser redimensionadas para ser quadradas e uma para ser retangular. Escolha também uma foto alusiva a uma forma económica de férias (caravana, tenda, dormir ao relento...)
-* cada destino deverá 
+Crie uma nova página HTML e usando CSS grid (propriedade <code>display: grid</code>) crie um elemento replicando o layout encima, mas para 6 destinos em Portugal à sua escolha. Para tal, siga os seguintes passos:
+
+#### Recolha de informação
+* escolha 5 destinos em Portugal, escolhendo uma fotografia para cada um. As fotos deveráo ser redimensionadas para ser 4 quadradas e uma retangular. Escolha também uma foto alusiva a uma forma económica de férias (caravana, tenda, dormir ao relento...)
+
+* para cada destino, defina texto de forma semelhante à imagem acima: 
+    * tipo do destino
+    * nome do destino
+    * frase convidativa
+    * tipo de destino.
+
+### layout grid
+* utilize a estruturação em grid, criando um elemento <code>div</code> com uma classe *container*, e dentro deste 6 items, um por imagem.
+* defina 
+
+### textos de cada foto
+* Use a propriedade <code>position: relative</code> e <code>position: absolute</code> para posicionar os elementos de texto. 
 
 ### Layout website
 crie o layout de um website tal como indicado
