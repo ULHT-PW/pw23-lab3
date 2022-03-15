@@ -39,8 +39,9 @@ Observe o layout em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
 
 ![Asymmetric-design](https://user-images.githubusercontent.com/42048382/158484887-93d19749-13b2-41e6-8906-f6322a668b47.jpg)
 
-Usando CSS grid, crie um elemento replicando o layout encima, mas para 6 destinos em Portugal à sua escolha. PAra tal, siga os seguitnes passos:
-* escolha 6 destinos em Portugal, escolhendo uma fotografia para cada um. As das fotos deveráo ser redimensionadas para ser quadradas e uma para ser retangular.
+Usando CSS grid, propriedade <code>display: grid</code>, crie um elemento replicando o layout encima, mas para 6 destinos em Portugal à sua escolha. PAra tal, siga os seguitnes passos:
+* escolha 5 destinos em Portugal, escolhendo uma fotografia para cada um. As das fotos deveráo ser redimensionadas para ser quadradas e uma para ser retangular. Escolha também uma foto alusiva a uma forma económica de férias (caravana, tenda, dormir ao relento...)
+* cada destino deverá 
 
 ### Layout website
 crie o layout de um website tal como indicado
