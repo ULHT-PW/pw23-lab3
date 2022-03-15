@@ -27,19 +27,27 @@
 * faça clip de um dos elementos
 
 
-### Flex
-crie uma pagina com 2 containers flex:
-* cada container deverá ter 10 elementos div, o primeiro caixas de uma cor, e o segundo fotografias
-* explore em cada um de forma diferente as propriedades flex-flow e justify-content e align-items.
+### Capitais europeias com Flexbox
+Observe a imagem em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
+
+![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
+
+Usando CSS flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. Para tal:
+* crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw-lab4-2022/blob/main/capitais.zip) 
+* crie um *container* flex com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=6))
+* utilize como items um conjunto de elementos <code>div</code>, cada um alusivo a uma capital europeia.
+* dentro de cada <code>div</code> coloque a imagem do lado esquerdo e do lado direito oum parágrafo com o nome da cidade. para tal, configure ambos com a propriedade <code>display: inline-block</code>
+* explore as propriedades <code>flex-flow</code> e <code>justify-content</code> e <code>align-items</code> para configurar adequadamente as imagens. Garanta espaçamento entre estas. 
+* No final, deverá ter como resultado semelhante à imagem em cima.
 
 crie um terceiro contentor, 600px de alto, com um smiley centrado no meio
 
-### Grid
+### Destinos de sonho com CSS Grid
 Observe o layout em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
 
 ![Asymmetric-design](https://user-images.githubusercontent.com/42048382/158484887-93d19749-13b2-41e6-8906-f6322a668b47.jpg)
 
-Crie uma nova página HTML e usando CSS grid (propriedade <code>display: grid</code>) crie um elemento replicando o layout encima, mas para 6 destinos em Portugal à sua escolha. Para tal, siga os seguintes passos:
+Usando CSS grid (propriedade <code>display: grid</code>) crie um elemento replicando o layout encima, mas para 6 destinos em Portugal à sua escolha. Para tal, siga os seguintes passos:
 
 #### Recolha de informação
 * escolha 5 destinos em Portugal, escolhendo uma fotografia para cada um. As fotos deveráo ser redimensionadas para ser 4 quadradas e uma retangular. Escolha também uma foto alusiva a uma forma económica de férias (caravana, tenda, dormir ao relento...)
