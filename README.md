@@ -54,8 +54,8 @@ Crie uma nova página HTML e usando CSS grid (propriedade <code>display: grid</c
 * utilize a estruturação em grid, criando um elemento <code>div</code> com uma classe *container*, e dentro deste 6 items <code>div</code>.
 * defina o layout:
    * defina para cada elemento uma classe diferente e atribua:
-      *  como <code>background-image</code> uma das imagens (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf))
-      *  um nome <code>grid-area</code> (veja o [slide 23](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf))
+      *  como <code>background-image</code> uma das imagens (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
+      *  um nome <code>grid-area</code> (veja o [slide 23](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=23))
    *  usando a propriedade <code>grid-template-areas</code> defina o layout dos elementos com as fotografias
 
 ### textos de cada foto
