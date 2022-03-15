@@ -51,14 +51,17 @@ Crie uma nova página HTML e usando CSS grid (propriedade <code>display: grid</c
     * tipo de destino.
 
 ### layout grid
-* utilize a estruturação em grid, criando um elemento <code>div</code> com uma classe *container*, e dentro deste 6 items, cada um tendo como background uma das imagens.
+* utilize a estruturação em grid, criando um elemento <code>div</code> com uma classe *container*, e dentro deste 6 items <code>div</code>.
 * defina o layout:
-   * defina para cada elemento uma classe e atribua um nome <code>grid-item</code>
-   *  usando a propriedade <code>grid-template-items</code>
+   * defina para cada elemento uma classe diferente e atribua:
+      *  como <code>background-image</code> uma das imagens (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf))
+      *  um nome <code>grid-area</code> (veja o [slide 23](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf))
+   *  usando a propriedade <code>grid-template-areas</code> defina o layout dos elementos com as fotografias
 
 ### textos de cada foto
 
-* Use a propriedade <code>position: relative</code> e <code>position: absolute</code> para posicionar os elementos de texto de cada fotografia como em baixo. 
+* Use a propriedade <code>position: relative</code> e <code>position: absolute</code> para posicionar os elementos de texto de cada fotografia como em baixo.
+ 
 ![image](https://user-images.githubusercontent.com/42048382/158486562-7b9850dc-1158-46b6-963d-ca79e059940f.png)
 
 ### Layout website
