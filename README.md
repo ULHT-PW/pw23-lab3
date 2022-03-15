@@ -51,11 +51,15 @@ Crie uma nova página HTML e usando CSS grid (propriedade <code>display: grid</c
     * tipo de destino.
 
 ### layout grid
-* utilize a estruturação em grid, criando um elemento <code>div</code> com uma classe *container*, e dentro deste 6 items, um por imagem.
-* defina 
+* utilize a estruturação em grid, criando um elemento <code>div</code> com uma classe *container*, e dentro deste 6 items, cada um tendo como background uma das imagens.
+* defina o layout:
+   * defina para cada elemento uma classe e atribua um nome <code>grid-item</code>
+   *  usando a propriedade <code>grid-template-items</code>
 
 ### textos de cada foto
-* Use a propriedade <code>position: relative</code> e <code>position: absolute</code> para posicionar os elementos de texto. 
+
+* Use a propriedade <code>position: relative</code> e <code>position: absolute</code> para posicionar os elementos de texto de cada fotografia como em baixo. 
+![image](https://user-images.githubusercontent.com/42048382/158486562-7b9850dc-1158-46b6-963d-ca79e059940f.png)
 
 ### Layout website
 crie o layout de um website tal como indicado
