@@ -3,7 +3,7 @@
 # Lab 4: *SPA com layout responsivo baseado em Flexbox e Grid* 
 
 ## Objetivos
-* Criar uma única página HTML, ao estilo das *Single Page Applications* (SPA).
+* Criar uma única página HTML, ao estilo das *Single Page Applications* (SPA). Ou seja, tudo ficará numa única página!
 * Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
 * explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste (todos os conceitos abordados neste lab sairão)
 
@@ -110,6 +110,8 @@ Crie um cabeçalho semelhante usando flexbox. Para tal:
     * defina uma borda arredondada e uma sombra, semelhante às caixas das cidades.
     * um <code>padding: 10px 20px</code> para que o texto não fique colado à moldura (border)
     * cor de fundo o mesmo azul claro que usou no fundo do container anterior.
+Exemplo.
+![image](https://user-images.githubusercontent.com/42048382/158695221-1b8a65b3-102c-4f6f-9e8a-e73f820050f7.png)
 
 # 4. Destinos de sonho com CSS Grid responsivo
 Observe o layout em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
