@@ -3,6 +3,7 @@
 # Objetivos
 * Neste laboratório irá criar uma única página HTML, ao estilo das *Single Page Applications* (SPA).
 * Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
+* explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste (todos os conceitos abordados neste lab sairão)
 
 # 1. Capitais europeias com Flexbox
 Observe a imagem em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
@@ -12,6 +13,7 @@ Observe a imagem em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
 Usando CSS flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. Para tal:
 * crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw-lab4-2022/blob/main/capitais.zip) 
 * defina, no elemento <code>head</code> a configuração para que o website tenha uma boa responsividade (veja [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=9))
+* escolha uma Google font que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal <code>*</code> e propriedade <code>font-family</code> (veja [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=10))
 * Crie um titulo <code>h1</code> "Capitais europeias".
 * A seguir, crie um *container* flex (elemento <code>div</code> com classe *capitais*, estilizado com a propriedade <code>display: flex</code>)) com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=6))
 * configure o container por forma a ter como cor de fundo azul muito clarinho  (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
@@ -30,11 +32,12 @@ Observe o cabeçalho em baixo do site [kiwi.com](https://www.kiwi.com/pt)).
 ![image](https://user-images.githubusercontent.com/42048382/158499100-5112973f-dc63-4ca6-a32c-8cd163a46b9f.png)
 
 Crie um cabeçalho semelhante usando flexbox. Para tal:
-* crie um contentor para colocar o menu:
-   * do lado esquerdo terá links para cidades europeias, destinos de sonho, e do lado direito terá um link para os labs de Programação Web 
+* crie no topo um contentor flexbox para colocar o menu:
+   * do lado esquerdo terá links para cidades europeias, destinos de sonho
+   * do lado direito terá um link para os labs de Programação Web (explore o [slide]())
 * crie por baixo outro elemento que terá o cabeçalho, que incluirá:
    * imagem de fundo definida como <code>background-image</code> (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
-   * título da página 
+   * título da página centrado usando flexbox, seguindo o princípio do [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=9) 
 
 
 # 3. Destinos de sonho com CSS Grid responsivo
