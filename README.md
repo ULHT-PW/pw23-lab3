@@ -84,7 +84,13 @@ Crie um cabeçalho semelhante usando flexbox. Para tal:
    * do lado esquerdo terá links (âncoras) para os tópicos desta página: *cidades europeias*, *dicas para viajar* e *destinos de sonho*. do lado direito terá um link para os labs de Programação Web. PAra criar este efeito:
        * coloque os links dentro de um container com a propriedade <code>display: flex</code>
        * configure o ultimo elemento, que pode identificar como <code>.menu a:last-child</code>, configure com a propriedade <code>margin-left:auto</code>. Isso irá encostar o último elemento à direita do container (para mais detalhes [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Flexbox#alignment_and_auto_margins))  
-   * Veja os exemplos dos botões (clique neles) do [slide 14](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=14). O flex conterá elementos âncora <code>a</code>. Associe uma cor de fundo, cinza claro, quando passa por cima do link com o rato (algo do género <code>.menu a:hover</code>). Configure-o com um padding. Remova a formatação de hiperlink do texto (sublinhado azul). 
+       * estilize o seletor <code>a</code> com as seguintes propriedades:
+           * <code>padding: 20px</code> para que haja espaço à volta de cada palavra
+           * remova a formatação de hiperlink do texto (sublinhado azul), com <code>text-decoration: none</code>.
+           * defina uma cor à fonte
+       * estilize o que acontece quando passa por cima do menu. PAra tal, deverá definir o selector <code>a:hover</code> com as seguintes propriedades:
+           * associe uma cor de fundo, cinza claro, quando passa por cima do link com o rato
+           * ponha o texto em bold, com  <code>font-weight: bold</code>
 * Crie por baixo outro elemento que terá o cabeçalho, elemento flex que incluirá:
    * imagem de fundo definida como <code>background-image</code> desse <code>div</code> (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
    * título da página, dentro de um <code>div</code>, e centrado usando flexbox, seguindo o princípio do [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=9) 
