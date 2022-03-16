@@ -5,7 +5,7 @@
 ## Objetivos
 * Criar uma única página HTML, ao estilo das *Single Page Applications* (SPA).
 * Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
-* explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste (todos os conceitos abordados neste lab sairão)
+* explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste
 
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
