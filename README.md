@@ -83,7 +83,7 @@ Crie um cabeçalho semelhante usando flexbox. Para tal:
 * Crie no topo um contentor flexbox classe "menu" para colocar o menu:
    * do lado esquerdo terá links (âncoras) para os tópicos desta página: *cidades europeias*, *dicas para viajar* e *destinos de sonho*. do lado direito terá um link para os labs de Programação Web. PAra criar este efeito:
        * coloque os links dentro de um container com a propriedade <code>display: flex</code>
-       * configure o ultimo elemento, que pode identificar como <code>.menu a:last-child</code>, configure com a propriedade <code>margin-left:auto</code>. Isso irá encostar o último elemento à direita do container (para mais detalhes [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Flexbox#alignment_and_auto_margins))  
+       * configure o ultimo link, que pode identificar como <code>.menu a:last-child</code>, com a propriedade <code>margin-left:auto</code>. Isso irá encostar o último elemento à direita do container (para mais detalhes [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Flexbox#alignment_and_auto_margins))  
        * estilize o seletor <code>a</code> com as seguintes propriedades:
            * <code>padding: 20px</code> para que haja espaço à volta de cada palavra
            * remova a formatação de hiperlink do texto (sublinhado azul), com <code>text-decoration: none</code>.
