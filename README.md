@@ -42,7 +42,8 @@ Usando CSS flexbox (propriedade <code>display: flex</code>) crie um elemento fle
 * dentro de cada <code>div</code> coloque a imagem do lado esquerdo e do lado direito oum parágrafo com o nome da cidade. para tal, configure ambos com a propriedade <code>display: inline-block</code>
 * explore as propriedades <code>flex-flow</code> e <code>justify-content</code> e <code>align-items</code> para configurar adequadamente as imagens. Garanta espaçamento entre estas, usando a propriedade <code>margin</code>. 
 * Exemplo de implementação. Deverá entender em detalhe tudo o que é feito em cada selector (são conceitos que saem na frequência)
-![image](https://user-images.githubusercontent.com/42048382/158494825-72eae4e1-bbaf-4b18-a10e-439f7afe6274.png)
+
+![image](https://user-images.githubusercontent.com/42048382/158495612-9d07c79d-fcb3-4ac2-88e5-b994c4ac82b9.png)
 
 
 crie um terceiro contentor, 600px de alto, com um smiley centrado no meio
