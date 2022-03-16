@@ -1,7 +1,7 @@
 # pw-lab4-2022
 
 # Objetivos
-* Neste laboratório irá criar uma única página HTML
+* Neste laboratório irá criar uma única página HTML, ao estilo das *Single Page Applications* (SPA).
 * Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
 
 # 1. Capitais europeias com Flexbox
