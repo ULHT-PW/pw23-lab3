@@ -98,7 +98,7 @@ Crie um cabeçalho semelhante usando flexbox. Para tal:
 
 # 3. Dicas para viajantes
 
-Crie um elemento com dicas para viajantes. Veja um exemplo em baixo.
+Crie um elemento com dicas para viajantes. Ficará tudo na mesma página. Veja um exemplo em baixo.
 
 ![image](https://user-images.githubusercontent.com/42048382/158695221-1b8a65b3-102c-4f6f-9e8a-e73f820050f7.png)
 
@@ -121,7 +121,7 @@ Observe o layout em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
 
 ![Asymmetric-design](https://user-images.githubusercontent.com/42048382/158484887-93d19749-13b2-41e6-8906-f6322a668b47.jpg)
 
-Usando CSS grid (propriedade <code>display: grid</code>) crie, por debaixo do elemento anterior com cidades europeias um elemento replicando o layout encima, mas para 6 destinos em Portugal à sua escolha. Para tal, siga os seguintes passos:
+Usando CSS grid (propriedade <code>display: grid</code>) crie, por debaixo do elemento anterior com dicas para viajantes um elemento replicando o layout encima, mas para 6 destinos em Portugal à sua escolha. Sim, ficará tudo na mesma página pois é uma Single Page Application (SPA). Para tal, siga os seguintes passos:
 
 #### Recolha de informação
 * escolha 5 destinos em Portugal, escolhendo uma fotografia para cada um. As fotos deveráo ser redimensionadas para ser 4 quadradas e uma retangular. Escolha também uma foto alusiva a uma forma económica de férias (dormir na praia, campismo selvagem, dormir ao relento, ...).
