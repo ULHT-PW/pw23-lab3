@@ -1,13 +1,17 @@
 # pw-lab4-2022
 
+# Objetivos
+* Neste laboratório irá criar uma única página HTML
+* Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
 
-### Capitais europeias com Flexbox
+# 1. Capitais europeias com Flexbox
 Observe a imagem em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
 
 ![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
 
 Usando CSS flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. Para tal:
 * crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw-lab4-2022/blob/main/capitais.zip) 
+* defina, no elemento <code>head</code> a configuração para que o website tenha uma boa responsividade (veja [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=9))
 * Crie um titulo <code>h1</code> "Capitais europeias".
 * A seguir, crie um *container* flex (elemento <code>div</code> com classe *capitais*, estilizado com a propriedade <code>display: flex</code>)) com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=6))
 * configure o container por forma a ter como cor de fundo azul muito clarinho  (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
@@ -20,7 +24,20 @@ Usando CSS flexbox (propriedade <code>display: flex</code>) crie um elemento fle
 
 ![image](https://user-images.githubusercontent.com/42048382/158496390-ad99c24c-dfe8-4030-b662-244a9eaec457.png)
 
-### Destinos de sonho com CSS Grid
+# 2. Cabeçalho
+Observe o cabeçalho em baixo do site [kiwi.com](https://www.kiwi.com/pt)).
+
+![image](https://user-images.githubusercontent.com/42048382/158499100-5112973f-dc63-4ca6-a32c-8cd163a46b9f.png)
+
+Crie um cabeçalho semelhante usando flexbox. Para tal:
+* crie um contentor para colocar o menu:
+   * do lado esquerdo terá links para cidades europeias, destinos de sonho, e do lado direito terá um link para os labs de Programação Web 
+* crie por baixo outro elemento que terá o cabeçalho, que incluirá:
+   * imagem de fundo definida como <code>background-image</code> (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
+   * título da página 
+
+
+# 3. Destinos de sonho com CSS Grid responsivo
 Observe o layout em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
 
 ![Asymmetric-design](https://user-images.githubusercontent.com/42048382/158484887-93d19749-13b2-41e6-8906-f6322a668b47.jpg)
@@ -60,14 +77,15 @@ Usando CSS grid (propriedade <code>display: grid</code>) crie, por debaixo do el
 * para o item com a sugestão de **"forma económica de férias"** (dormir na praia, campismo selvagem, dormir ao relento, ...) deverá configurar de forma semelhante à imagem inicial, com a foto na parte superior da caixa, existindo por baixo espaço branco para colocar texto (duas frases semelhantes) e um botão. Para tal, crie dentro desse div uma outra grid, com três <code>div</code>: um para a imagem (neste a imagem não fica como background), outro para a frase motivadora, e outro para o botão. 
 * Para o texto (dois parágrafos) e o botão (elemento <code>button</code>, que neste caso não fará nada), cada um no seu div, deverá centrá-los de forma semelhante ao [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=9).
 
-### Layout website
-crie o layout de um website tal como indicado
 
-
-### Propriedades CSS
-#### Fontes
+# 4. Página index dos seus laboratórios
+Estilize a seu gosto sua *landing page* (página de entrada) dos seus laboratórios. Em particular:
 * escolha e utilize uma fonte Google
-* formate com todas as propriedades dos slides (font size, style, wheight, variant, e text-decoration, transform, align, leeter-spacing, word-spacing, line-height e vertical-align)
+* utilize algumas propriedades dos slides (font size, style, wheight, variant, e text-decoration, transform, align, leeter-spacing, word-spacing, line-height e vertical-align)
+* escolha cor de fundo
+* coloque o conteúdo num conjunto de elementos semânticos (header, nav, main, footer) para organizar o conteúdo
+* crie um layout CSS grid a seu gosto para organizar a informação que deverá ser responsivo à largura do ecrã (veja [slide 12](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=12))
+
 
 #### Icones
 * utilize pelo menos 5 ícones Google, Bootstrap e Awesome 
