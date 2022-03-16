@@ -1,11 +1,59 @@
-# pw-lab4-2022
+**PROGRAMAÇÃO WEB - aplicações web por perfeccionistas criativos**
+ 
+# Lab 4: *SPA com layout responsivo baseado em Flexbox e Grid* 
 
-# Objetivos
-* Neste laboratório irá criar uma única página HTML, ao estilo das *Single Page Applications* (SPA).
+## Objetivos
+* Criar uma única página HTML, ao estilo das *Single Page Applications* (SPA).
 * Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
 * explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste (todos os conceitos abordados neste lab sairão)
 
+## Recomendações
+* Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
+* Execute com atenção cada passo, certificando-se que implementa todos os detalhes. 
+* Se tiver alguma dúvida, recorra aos slides da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
+* Este laboratório deverá ser concluido antes da sua aula prática da semana de 21.3, onde será avaliado. 
+* Todos estes conteúdos são conteúdos que saem na frequencia, pelo que exercite-os no laboratório para os conhecer.
+
+## Pré-requisitos
+* Deverá ter o Pycharm instalado para editar o código HTML de forma fácil.
+* Deverá ter instalado o git no seu computador.
+
+
+# 0. Estruturação do repositório de laboratórios
+
+1. Clone (descarregue uma cópia) do GitHub para o seu computador o seu repositório com os laboratórios de Programação Web do GitHub:
+    1. abra um processador de comandos (prima a tecla Windows e escreva `cmd` ou `Powershell`)
+    2. escolha a pasta onde quer colocar o repositório (navegando com o comando `cd nome-de-pasta` para entrar numa determinada pasta)
+    3. clone o seu repositório com o comando:
+    ```bash
+    > git clone https://github/seuUserName/pw-labs-nomeapelido-numero
+    ```
+
+2. Ainda usando a consola crie uma pasta lab4:
+    ```bash
+    > cd pw-labs-nomeapelido-numero
+    > mkdir lab4
+    ```
+
+3. Atualize o ficheiro `index.html`, índice dos seus laboratórios, incluindo na lista dos laboratórios este novo laboratório com um hiperlink para `lab4/index.html`:
+        * Laboratório 4: SPA com layout responsivo baseado em Flexbox e Grid
+
+4. A estrutura da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em baixo:
+```
+pw-labs-nomeapelido-numero
++-- index.php
++-- composer.json
++-- index.html
++-- lab1
++-- lab2
++-- lab3
++-- lab4
+```
+
+
 # 1. Capitais europeias com Flexbox
+
+Neste laboratório criará uma única página HTML, ao estilo das *Single Page Applications* (SPA).
 Observe a imagem em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
 
 ![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
@@ -33,7 +81,7 @@ Observe o cabeçalho em baixo do site [kiwi.com](https://www.kiwi.com/pt)).
 
 Crie um cabeçalho semelhante usando flexbox. Para tal:
 * crie no topo um contentor flexbox para colocar o menu:
-   * do lado esquerdo terá links para cidades europeias, destinos de sonho
+   * do lado esquerdo terá links (âncora) para os tópicos desta página, *cidades europeias* e *destinos de sonho*.
    * do lado direito terá um link para os labs de Programação Web (explore o [slide]())
 * crie por baixo outro elemento que terá o cabeçalho, que incluirá:
    * imagem de fundo definida como <code>background-image</code> (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
@@ -70,6 +118,7 @@ Usando CSS grid (propriedade <code>display: grid</code>) crie, por debaixo do el
 #### Layout telemóvel
 * crie uma media query com uma regra max-width = 900px
 * dentro da media query, defina a propriedade <code>grid-template-areas</code>, concebendo o layout dos items d forma a que fiquem apenas duas fotos quadradas por linha. Garanta algum espaçamento entre estas (propriedade <code>gap</code>).
+* verifique que a responsividade funciona bem, encolhendo e alargando a página.
 
 #### textos de cada item da foto
 * Use as propriedade <code>position: relative</code> e <code>position: absolute</code> (veja o [slide 35](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=35)) para posicionar cada um dos 3 elementos de texto de cada fotografia como em baixo.
@@ -93,4 +142,24 @@ Estilize a seu gosto sua *landing page* (página de entrada) dos seus laboratór
 * Explore as unidades relativas configurar o tamanho das fontes (veja o [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=19))
 * inclua um link para a nova página
  
-#
+
+# 7. Submissão
+
+1. Verifique que todos os links do seu website funcionam devidamente.
+2. Carregue a sua pasta do seu repositório (com as modificações efetuadas) no seu repositório Github através dos seguintes passos:
+    1.  abra o processador de comandos e posicione-se dentro da pasta do seu repositório (`pw-labs-nomeapelido-numero`).
+    2.  escreva as seguintes instruções:
+        * `git add *`
+        * `git commit –m "laboratório 4"`
+        * `git push`
+             * `git add` serve para propor mudaças, incluindo todos os ficheiros e pastas existentes como. o `commit` serve para confirmar as mudanças e que estas fiquem guardadas. o `push` serve para enviar as alterações (upload) para o repositório no GitHub.
+3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
+3. Garanta que os docentes de PW são membros do seu repositório, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos.
+4. Verifique que o seu website online funciona corretamente, em particular mostra todas as imagens e os hiperlinks funcionam devidamente.
+5. Garanta que preencheu o formulário do lab2, [form](https://forms.gle/d5sS3XtaHzRnfzQ87). Como os laboratórios estão todos centralizados num só repositório e aplicação Heroku, os docentes usarão o link submetido para avaliar os vossos trabalhos.
+
+
+ # Fim ☀
+ 
+Esperamos que tenha gostado de aplicar os conhecimentos para criar layouts com flexbox e CSS grid &#127760;!
+
