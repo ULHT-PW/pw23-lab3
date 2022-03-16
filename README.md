@@ -5,7 +5,7 @@
 ## Objetivos
 * Criar uma única página HTML, ao estilo das *Single Page Applications* (SPA).
 * Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
-* explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste
+* explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste (todos os conceitos abordados neste lab sairão)
 
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
@@ -89,14 +89,13 @@ Crie um cabeçalho semelhante usando flexbox. Para tal:
 
 # 3. Dicas para viajantes
 
-* Crie um titulo <code>h1</code> "Dicas para viajantes".
-* compile 8 dicas para viajantes (invente, pesquise na internet, ou veja por exemplo em [1](https://catracalivre.com.br/rede/10-conselhos-para-quem-quer-viajar-o-mundo/),  [2](https://billete996.aireuropa.com/pt-pt/10-dicas-fantasticas-para-viajar-sozinho/), [3](https://foradazonadeconforto.com/10-dicas-para-viajar-com-os-amigos/), [4](https://www.worldpackers.com/pt-BR/articles/como-viajar-com-pouco-dinheiro), [4](https://janelasabertas.com/2015/12/23/conselhos-de-viagem-que-servem-pra-vida/)). 
-* Para cada dica deverá ter:
+* compile 8 dicas para viajantes (invente, pesquise na internet, ou veja por exemplo em [1](https://catracalivre.com.br/rede/10-conselhos-para-quem-quer-viajar-o-mundo/),  [2](https://billete996.aireuropa.com/pt-pt/10-dicas-fantasticas-para-viajar-sozinho/), [3](https://foradazonadeconforto.com/10-dicas-para-viajar-com-os-amigos/), [4](https://www.worldpackers.com/pt-BR/articles/como-viajar-com-pouco-dinheiro), [4](https://janelasabertas.com/2015/12/23/conselhos-de-viagem-que-servem-pra-vida/)). Para cada dica deverá ter:
    * título
    * descrição curta (2 linhas)
    * Icone Google, Bootstrap ou Awesome (veja o s[slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=11)) 
-* A seguir, crie um *container* flex (elemento <code>div</code> com classe *dicas*, estilizado com a propriedade <code>display: flex</code>)) com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=6))
-* cada item será um div com a informação das dicas, o título num h1 e o texto num elemento p. 
+* Crie um titulo <code>h1</code> "Dicas para viajantes".
+* Por baixo, crie um *container* flex (elemento <code>div</code> com classe *dicas*, estilizado com a propriedade <code>display: flex</code>)) com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=6)), semelhante ao exercicio anterior.
+* cada item será um div com a informação das dicas, o título e ícone num h1 e o texto num elemento p. 
 * no css, configure os divs da classe dicas (<code>.dicas div</code>) com:
     * um tamanho igual para todos (propriedades width e height)
     * defina uma borda arredondada e uma sombra, semelhante às caixas das cidades.
