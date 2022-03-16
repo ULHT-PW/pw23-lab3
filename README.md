@@ -34,9 +34,11 @@ Observe a imagem em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
 
 Usando CSS flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. Para tal:
 * crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw-lab4-2022/blob/main/capitais.zip) 
-* crie um *container* flex com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=6))
-* utilize como items um conjunto de elementos <code>div</code>, cada um alusivo a uma capital europeia.
-* configure os div dentro do container (com a composição de selectors <code>.container div</code>) por forma a terem uma borda, com cantos arredondados (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf))
+* crie um *container* flex (elemento <code>div</code> com classe *container* estilizado com a propriedade <code>display: flex</code>)) com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=6))
+* configure o container por forma a ter como cor de fundo azul muito clarinho  (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
+* os items serão um conjunto de elementos <code>div</code>, cada um será alusivo a uma capital europeia tal como se descreve a seguir.
+* cada item <code>div</code> deverá conter dois elementos <code>div</code>, um com a imagem, e outro com um parágrafo com o nome da capital. 
+* configure os div dentro do container (com a composição de selectors <code>.container div</code>) por forma a terem uma borda e cantos arredondados (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf))
 * dentro de cada <code>div</code> coloque a imagem do lado esquerdo e do lado direito oum parágrafo com o nome da cidade. para tal, configure ambos com a propriedade <code>display: inline-block</code>
 * explore as propriedades <code>flex-flow</code> e <code>justify-content</code> e <code>align-items</code> para configurar adequadamente as imagens. Garanta espaçamento entre estas. 
 * No final, deverá ter como resultado semelhante à imagem em cima.
