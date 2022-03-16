@@ -87,29 +87,10 @@ Estilize a seu gosto sua *landing page* (página de entrada) dos seus laboratór
 * utilize algumas propriedades dos slides (font size, style, wheight, variant, e text-decoration, transform, align, leeter-spacing, word-spacing, line-height e vertical-align)
 * escolha cor de fundo
 * coloque o conteúdo num conjunto de elementos semânticos (header, nav, main, footer) para organizar o conteúdo
+* inclua num elemento aside uma wordcloud e posicione-a de lado (se em layout PC) ou por baixo (se em layout telemovel)
 * crie um layout CSS grid a seu gosto para organizar a informação que deverá ser responsivo à largura do ecrã (veja [slide 12](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=12))
-
-
-#### Icones
-* utilize pelo menos 5 ícones Google, Bootstrap e Awesome 
-* conte história com ícones Google
-
-
-#### Unidades
-* Faça página em que explora as unidades %, em e rem 
-
-#### Elemento bloco e propriedades
-* configure as propriedades dum conjunto de divs dentro dum contentor
-* explore as propriedades background, border, width e height, padding, margin
-* configure bloco de texto com figura flutuante com amrgem adequada para que texto não encoste a esta
-
-#### Position
-* explore a propriedade position e seus valores static, relative, absolute, fixed e sticky
-* aplique o z-index para controlar sobreposição de elementos
-* faça clip de um dos elementos
-
-
-
-### página com layout responsivo
-* crie uma página com um rectangulo responsivo, na cor, ao tamanho da janela
-* crie uma página com layout responsivo (PC e telemóvel)
+* utilize 5 ícones Google, Bootstrap ou Awesome (veja o s[slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=11)) 
+* Explore as unidades relativas configurar o tamanho das fontes (veja o [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=19))
+* inclua um link para a nova página
+ 
+#
