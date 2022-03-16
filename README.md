@@ -81,7 +81,7 @@ Observe o cabeçalho em baixo do site [kiwi.com](https://www.kiwi.com/pt)).
 
 Crie um cabeçalho semelhante usando flexbox. Para tal:
 * Crie no topo um contentor flexbox classe "menu" para colocar o menu:
-   * do lado esquerdo terá links (âncoras) para os tópicos desta página: *cidades europeias*, *dicas para viajar* e *destinos de sonho*. do lado direito terá um link para os labs de Programação Web. PAra criar este efeito:
+   * do lado esquerdo terá links (âncoras) para os tópicos desta página: *cidades europeias*, *dicas para viajar* e *destinos de sonho*. do lado direito terá um link para os labs de Programação Web (ver [slide 10](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=10)). PAra criar este efeito:
        * coloque os links dentro de um container com a propriedade <code>display: flex</code>
        * configure o ultimo link, que pode identificar como <code>.menu a:last-child</code>, com a propriedade <code>margin-left:auto</code>. Isso irá encostar o último elemento à direita do container (para mais detalhes [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Flexbox#alignment_and_auto_margins))  
        * estilize o seletor <code>a</code> com as seguintes propriedades:
