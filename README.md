@@ -80,12 +80,13 @@ Observe o cabeçalho em baixo do site [kiwi.com](https://www.kiwi.com/pt)).
 ![image](https://user-images.githubusercontent.com/42048382/158499100-5112973f-dc63-4ca6-a32c-8cd163a46b9f.png)
 
 Crie um cabeçalho semelhante usando flexbox. Para tal:
-* crie no topo um contentor flexbox para colocar o menu:
-   * do lado esquerdo terá links (âncora) para os tópicos desta página, *cidades europeias* e *destinos de sonho*.
-   * do lado direito terá um link para os labs de Programação Web (explore o [slide]())
-* crie por baixo outro elemento que terá o cabeçalho, que incluirá:
-   * imagem de fundo definida como <code>background-image</code> (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
-   * título da página centrado usando flexbox, seguindo o princípio do [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=9) 
+* Crie no topo um contentor flexbox classe "menu" para colocar o menu:
+   * do lado esquerdo terá links (âncoras) para os tópicos desta página: *cidades europeias*, *dicas para viajar* e *destinos de sonho*. do lado direito terá um link para os labs de Programação Web.
+   * Veja os exemplos dos botões (clique neles) do [slide 14](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=14). O flex conterá elementos âncora <code>a</code>. Associe uma cor de fundo, cinza claro, quando passa por cima do link com o rato (algo do género <code>.menu a:hover</code>). Configure-o com um padding. Remova a formatação de hiperlink do texto (sublinhado azul). 
+* Crie por baixo outro elemento que terá o cabeçalho, elemento flex que incluirá:
+   * imagem de fundo definida como <code>background-image</code> desse <code>div</code> (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
+   * título da página, dentro de um <code>div</code>, e centrado usando flexbox, seguindo o princípio do [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=9) 
+
 
 # 3. Dicas para viajantes
 
