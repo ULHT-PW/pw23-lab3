@@ -82,8 +82,8 @@ Observe o cabeçalho em baixo do site [kiwi.com](https://www.kiwi.com/pt)).
 Crie um cabeçalho semelhante usando flexbox. Para tal:
 * Crie no topo um contentor flexbox classe "menu" para colocar o menu:
    * do lado esquerdo terá links (âncoras) para os tópicos desta página: *cidades europeias*, *dicas para viajar* e *destinos de sonho*. do lado direito terá um link para os labs de Programação Web. PAra criar este efeito:
-       * coloque os links dentro de um container <code>flex</code>
-       * para que o ultimo elemento, que pode identificar como <code>.menu a:last-child</code> configure <code>margin-left:auto</code> 
+       * coloque os links dentro de um container com a propriedade <code>display: flex</code>
+       * configure o ultimo elemento, que pode identificar como <code>.menu a:last-child</code>, configure com a propriedade <code>margin-left:auto</code>. Isso irá encostar o último elemento à direita do container (para mais detalhes [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Flexbox#alignment_and_auto_margins))  
    * Veja os exemplos dos botões (clique neles) do [slide 14](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=14). O flex conterá elementos âncora <code>a</code>. Associe uma cor de fundo, cinza claro, quando passa por cima do link com o rato (algo do género <code>.menu a:hover</code>). Configure-o com um padding. Remova a formatação de hiperlink do texto (sublinhado azul). 
 * Crie por baixo outro elemento que terá o cabeçalho, elemento flex que incluirá:
    * imagem de fundo definida como <code>background-image</code> desse <code>div</code> (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
