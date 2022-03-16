@@ -98,6 +98,10 @@ Crie um cabeçalho semelhante usando flexbox. Para tal:
 
 # 3. Dicas para viajantes
 
+Crie um elemento com dicas para viajantes. Veja um exemplo em baixo.
+
+![image](https://user-images.githubusercontent.com/42048382/158695221-1b8a65b3-102c-4f6f-9e8a-e73f820050f7.png)
+
 * compile 8 dicas para viajantes (invente, pesquise na internet, ou veja por exemplo em [1](https://catracalivre.com.br/rede/10-conselhos-para-quem-quer-viajar-o-mundo/),  [2](https://billete996.aireuropa.com/pt-pt/10-dicas-fantasticas-para-viajar-sozinho/), [3](https://foradazonadeconforto.com/10-dicas-para-viajar-com-os-amigos/), [4](https://www.worldpackers.com/pt-BR/articles/como-viajar-com-pouco-dinheiro), [4](https://janelasabertas.com/2015/12/23/conselhos-de-viagem-que-servem-pra-vida/)). Para cada dica deverá ter:
    * título
    * descrição curta (2 linhas)
@@ -110,8 +114,6 @@ Crie um cabeçalho semelhante usando flexbox. Para tal:
     * defina uma borda arredondada e uma sombra, semelhante às caixas das cidades.
     * um <code>padding: 10px 20px</code> para que o texto não fique colado à moldura (border)
     * cor de fundo o mesmo azul claro que usou no fundo do container anterior.
-Exemplo.
-![image](https://user-images.githubusercontent.com/42048382/158695221-1b8a65b3-102c-4f6f-9e8a-e73f820050f7.png)
 
 # 4. Destinos de sonho com CSS Grid responsivo
 Observe o layout em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
