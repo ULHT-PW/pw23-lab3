@@ -3,7 +3,7 @@
 # Lab 4: *SPA com layout responsivo baseado em Flexbox e Grid* 
 
 ## Objetivos
-* Criar uma única página HTML, ao estilo das *Single Page Applications* (SPA). Ou seja, tudo ficará numa única página!
+* Criar uma única página HTML, ao estilo das *Single Page Applications* (SPA). Ou seja, tudo ficará numa única página, explorando com scroll down (veja este exemplo https://www.kiwi.com/pt/).
 * Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
 * explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste (todos os conceitos abordados neste lab sairão)
 
@@ -98,11 +98,11 @@ Crie um cabeçalho semelhante usando flexbox. Para tal:
 
 # 3. Dicas para viajantes
 
-Crie um elemento com dicas para viajantes. Ficará tudo na mesma página. Veja um exemplo em baixo.
+Crie um novo elemento, por baixo das cidades europeias, com dicas para viajantes. Veja um exemplo em baixo.
 
 ![image](https://user-images.githubusercontent.com/42048382/158695221-1b8a65b3-102c-4f6f-9e8a-e73f820050f7.png)
 
-Para tal:
+Ficará tudo na mesma página. Para tal:
 * compile 8 dicas para viajantes (invente, pesquise na internet, ou veja por exemplo em [1](https://catracalivre.com.br/rede/10-conselhos-para-quem-quer-viajar-o-mundo/),  [2](https://billete996.aireuropa.com/pt-pt/10-dicas-fantasticas-para-viajar-sozinho/), [3](https://foradazonadeconforto.com/10-dicas-para-viajar-com-os-amigos/), [4](https://www.worldpackers.com/pt-BR/articles/como-viajar-com-pouco-dinheiro), [4](https://janelasabertas.com/2015/12/23/conselhos-de-viagem-que-servem-pra-vida/)). Para cada dica deverá ter:
    * título
    * descrição curta (2 linhas)
