@@ -1,21 +1,17 @@
 **PROGRAMAÇÃO WEB - aplicações web por perfeccionistas criativos**
  
-# Lab 4: *SPA com layout responsivo baseado em Flexbox e Grid* 
+# Lab 3: *Layouts baseados em Flexbox e Grid* 
 
 ## Objetivos
-* Criar uma única página HTML, ao estilo das *Single Page Applications* (SPA). Ou seja, tudo ficará numa única página, explorando com scroll down (veja este exemplo https://www.kiwi.com/pt/).
-* Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
-* explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste (todos os conceitos abordados neste lab sairão)
+* Aplicar os conceitos aprendidos de propriedades CSS, em especial flexbox e grid.
 
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
 * Execute com atenção cada passo, certificando-se que implementa todos os detalhes. 
 * Se tiver alguma dúvida, recorra aos slides da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
-* Este laboratório deverá ser concluido antes da sua aula prática da semana de 21.3, onde será avaliado. 
-* Todos estes conteúdos são conteúdos que saem na frequencia, pelo que exercite-os no laboratório para os conhecer.
 
 ## Pré-requisitos
-* Deverá ter o Pycharm instalado para editar o código HTML de forma fácil.
+* Deverá ter o VSCode instalado para editar o código HTML de forma fácil.
 * Deverá ter instalado o git no seu computador.
 
 
@@ -50,21 +46,24 @@ pw-labs-nomeapelido-numero
 +-- lab4
 ```
 
+# 0. Configuração geral
+
+* escolha uma fonte Google que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal <code>*</code> e propriedade <code>font-family</code> (veja [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=10))
+
+* defina, no elemento <code>head</code> a configuração para que o website tenha uma boa responsividade (veja [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=9))
+
 
 # 1. Capitais europeias com Flexbox
 
-Neste laboratório criará uma única página HTML, ao estilo das *Single Page Applications* (SPA).
-Observe a imagem em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
+Crie uma página intitulada capitais.html.
 
 ![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
 
-Usando CSS flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. Para tal:
+Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. Para tal:
 * crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw-lab4-2022/blob/main/capitais.zip) 
-* defina, no elemento <code>head</code> a configuração para que o website tenha uma boa responsividade (veja [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=9))
-* escolha uma Google font que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal <code>*</code> e propriedade <code>font-family</code> (veja [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=10))
 * Crie um titulo <code>h1</code> "Capitais europeias".
 * A seguir, crie um *container* flex (elemento <code>div</code> com classe *capitais*, estilizado com a propriedade <code>display: flex</code>)) com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=6))
-* configure o container por forma a ter como cor de fundo azul muito clarinho  (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
+* configure o container por forma a ter uma cor de fundo clara  (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
 * os items serão um conjunto de elementos <code>div</code>, cada um será alusivo a uma capital europeia tal como se descreve a seguir.
 * cada item <code>div</code> deverá conter dois elementos <code>div</code>, um com a imagem, e outro com um parágrafo com o nome da capital. 
 * configure os div dentro do container (com a composição de selectors <code>.container div</code>) por forma a terem uma borda e cantos arredondados (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf))
