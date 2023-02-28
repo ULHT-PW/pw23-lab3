@@ -9,7 +9,10 @@
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
 * Execute com atenção cada passo, certificando-se que implementa todos os detalhes. 
-* Se tiver alguma dúvida, recorra aos slides da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
+* Se tiver alguma dúvida:
+    * recorra aos slides da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
+    * [video-tutorial: posicionamento de elementos e seletores vários](https://educast.fccn.pt/vod/clips/1tmk0lmtww/html5.html?locale=en)
+    * [vídeo-tutorial: construindo um layout com CSS Grid](https://educast.fccn.pt/vod/clips/1qib570kz7/html5.html?locale=en)
 
 ## Pré-requisitos
 * Deverá ter o VSCode instalado para editar o código HTML de forma fácil.
