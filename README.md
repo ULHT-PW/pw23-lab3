@@ -53,7 +53,7 @@
 ![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
 
 Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. O código a implementar está em baixo, explicado a seguir:
-* crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw-lab4-2022/blob/main/capitais.zip) 
+* crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw23-lab3/blob/main/capitais.zip) 
 * Crie um *container* flex (elemento <code>div</code> com classe *capitais*, com a propriedade <code>display: flex</code>)) e contendo um conjunto de items <code>div</code> (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=5))
 * configure o container por forma a ter uma cor de fundo clara  (veja o [slide 11](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=11))
 * os items serão um conjunto de elementos <code>div</code>. Cada um será alusivo a uma capital europeia tal como se descreve a seguir.
