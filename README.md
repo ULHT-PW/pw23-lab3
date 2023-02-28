@@ -90,7 +90,7 @@ Crie um div onde explora dentro deste as propriedades:
 
 
 # 2. Páginas com diferentes layouts usando <code>grid</code>
-* Explore o CSS grid brincando e alterando o [codepen](https://codepen.io/LucioStuder/pen/popowOY?editors=1100). 
+
 * O segredo do CSS grid ([slides](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=26)) é:
     * dar um nome <code>grid-area</code> a cada elemento do layout  
     * no contentor grid, com a propriedade <code>displaygrid</code>, caracterizar:
@@ -98,6 +98,8 @@ Crie um div onde explora dentro deste as propriedades:
         * <code>grid-template-columns</code> 
         * <code>grid-template-rows</code>.
     * Explore a combinação de unidades diferentes, fr, %, vw
+* Se tiver dúvidas sobre CSS Grid, veja o [vídeo-tutorial: construindo um layout com CSS Grid](https://educast.fccn.pt/vod/clips/1qib570kz7/html5.html?locale=en)
+* Explore o CSS grid brincando e alterando o [codepen sobre layout grid](https://codepen.io/LucioStuder/pen/popowOY?editors=1100). 
 * Crie uma combinação de pelo menos 5 elementos semânticos HTML (header, nav, main, article, aside, footer...):
     * configure dois elementos com uma cor de fundo diferente e uma palavra a seu gosto
     * 2 com imagens de fundo (veja o [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf?time=1677539648106#page=5), usando  <code>background-image:url(...)</code> e <code>background-size:cover</code>). 
