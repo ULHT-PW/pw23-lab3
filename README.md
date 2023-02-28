@@ -22,8 +22,9 @@
 
 
 # 1. Flex 
-
-* Irá criar uma página onde explorará a propriedade <code>display:flex</code>
+* cria uma pasta com o nome lab3.
+* Irá criar uma página index.html onde explorará a propriedade <code>display:flex</code>
+* crie um ficheiro CSS à parte, para estilizar esta página
 * escolha uma fonte Google que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal <code>*</code> e propriedade <code>font-family</code> (veja [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=10))
 * especifique no style sempre <code>* {box-sizing: border-box; padding: 0; margin: 0;}</code>
 
@@ -108,7 +109,8 @@ Crie um div onde explora dentro deste as propriedades:
     * configure dois elementos com uma cor de fundo diferente e uma palavra a seu gosto
     * 2 com imagens de fundo (veja o [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf?time=1677539648106#page=5), usando  <code>background-image:url(...)</code> e <code>background-size:cover</code>). 
     * um elemento <code>grid</code>
-* usando CSS grid, crie, com o mesmo conteúdo, 6 páginas com 6 layouts diferentes. Inspire-se nos [exemplos de layouts com 2 e 3 colunas](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/Common_web_layouts) e invente.
+* faça 6 copias do ficheiro HTML, dando nomes diferentes.
+* usando CSS grid, crie, com o mesmo conteúdo, 6 páginas com 6 layouts diferentes. Configure o CSS dentro do próprio html, no elemento style. Inspire-se nos [exemplos de layouts com 2 e 3 colunas](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/Common_web_layouts) e invente.
 * no <code>grid</code> insira 6 links (pode ser apenas um número) para cada uma das páginas, e um sexto para a página Flex. 
 
 # 3. Submissão
