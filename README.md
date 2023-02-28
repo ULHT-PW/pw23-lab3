@@ -108,7 +108,7 @@ Crie um div onde explora dentro deste as propriedades:
     * configure dois elementos com uma cor de fundo diferente e uma palavra a seu gosto
     * 2 com imagens de fundo (veja o [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf?time=1677539648106#page=5), usando  <code>background-image:url(...)</code> e <code>background-size:cover</code>). 
     * um elemento <code>grid</code>
-* usando CSS grid, crie, com o mesmo conteúdo, 6 páginas com layouts diferentes, inspirando-se por exemplo [aqui](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/Common_web_layouts), nos layouts de 2 e 3 colunas.
+* usando CSS grid, crie, com o mesmo conteúdo, 6 páginas com 6 layouts diferentes. Inspire-se nos [exemplos de layouts com 2 e 3 colunas](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/Common_web_layouts) e invente.
 * no <code>grid</code> insira 6 links (pode ser apenas um número) para cada uma das páginas, e um sexto para a página Flex. 
 
 # 3. Submissão
