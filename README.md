@@ -17,8 +17,6 @@
 * reveja os slides sobre [propriedades CSS](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf) e [flex e grid](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf)
 * explore os exercícios do tutorial [Flexbox froggy](https://flexboxfroggy.com/)
 
-# 1. Tutoriais
-
 
 # 1. Flex 
 
@@ -66,7 +64,16 @@ Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento fle
 
 ![image](https://user-images.githubusercontent.com/42048382/158496390-ad99c24c-dfe8-4030-b662-244a9eaec457.png)
 
-### 1.4. Cabeçalho <code>header</code> com <code>position:sticky</code>
+### 1.4. Propriedades CSS <code>flex</code>
+
+Crie um div onde explora dentro deste as propriedades:
+* crie um conjunto de círculos: crie elemento quadrado, esolha cor de fundo, e defina border-radius = sua largura... 😀). coloque uma palavra centrada, usando flex.
+* aplique clip a uma imagem
+* z-index
+* display:hidden e hover (quando passa com o rato por cima, desaparece)
+* explore [ícones](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf?time=1677539648106)
+
+### 1.5. Cabeçalho <code>header</code> com <code>position:sticky</code>
 
 * Crie um cabeçalho, elemento <code>header</code>, fixo com a propriedade <code>position:sticky</code> (ver [codepen](https://codepen.io/LucioStuder/pen/popNbpm?editors=1100)).  
 * O <code>header</code> deverá conter:
@@ -102,8 +109,8 @@ Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento fle
 # 3. Submissão
 
 1. Verifique que todos os links do seu website funcionam devidamente.
-2. Crie um novo repositório GitHub público e carregue o seu laboratório 3.
-3. Crie uma nova conta no pythonAnyWhere, e carregue o seu projeto
+2. Crie um novo repositório GitHub público e carregue o seu laboratório 3 (se tiver duvidas, veja [aqui](https://github.com/ULHT-PW/git)).
+3. Crie uma nova conta no pythonAnyWhere, e carregue o seu projeto, tal como descrito no lab 2.
 4. Verifique que o seu website online funciona corretamente, em particular mostra todas as imagens e os hiperlinks funcionam devidamente.
 5. Submeta o dominio da aplicação e link do repositório GitHub.
 
