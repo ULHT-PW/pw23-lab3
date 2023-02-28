@@ -14,6 +14,10 @@
 * Deverá ter o VSCode instalado para editar o código HTML de forma fácil.
 * Deverá ter instalado o git no seu computador.
 
+# 1. Tutoriais
+
+* reveja os [slides sobre flex e grid](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf)
+* explore os exercícios do tutorial [Flexbox froggy](https://flexboxfroggy.com/)
 
 # 0. Estruturação do repositório de laboratórios
 
@@ -59,7 +63,7 @@ Crie uma página intitulada capitais.html.
 
 ![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
 
-Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. Para tal:
+Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. O código a implementar está em baixo, explicado a seguir:
 * crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw-lab4-2022/blob/main/capitais.zip) 
 * Crie um titulo <code>h1</code> "Capitais europeias".
 * A seguir, crie um *container* flex (elemento <code>div</code> com classe *capitais*, estilizado com a propriedade <code>display: flex</code>)) com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=5))
