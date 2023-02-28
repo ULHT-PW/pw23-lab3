@@ -42,6 +42,7 @@
 * Crie um elemento div com <code>position:relative</code> e contendo um elemento com a imagem <code>img</code> e um elemento parágrafo <code>p</code>.
 * dimensione a imagem com largura 100%, <code>width:100%</code> por forma a ocupar toda a largura do browser.
 * coloque uma frase sobre a imagem usando as propriedades <code>position:absolute</code> e especificando a posição em relação ao topo <code>top</code> e lado esquerdo <code>left</code> (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=22)). EScolha uma cor para o texto que contraste bem com o fundo.
+* Se tiver dúvidas, veja o [video-tutorial: posicionamento de elementos e seletores vários](https://educast.fccn.pt/vod/clips/1tmk0lmtww/html5.html?locale=en)
 
 
 ### 1.3. Capitais europeias usando <code>flex</code>
