@@ -75,7 +75,9 @@ Crie um div onde explora dentro deste as propriedades:
 * Crie um cabeçalho, elemento <code>header</code>, fixo com a propriedade <code>position:sticky</code> (ver [codepen](https://codepen.io/LucioStuder/pen/popNbpm?editors=1100)).  
 * O <code>header</code> deverá conter:
     * <code>h1</code> com um título do lado esquerdo 
-    * <code>nav</code> com links "ancora" para as várias partes da página (ver [exemplo](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.1-html.pdf?time=1677056603525)), e um link para uma página da próxima secção.
+    * <code>nav</code> com 
+        * links "ancora" para as várias partes da página (ver [exemplo](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.1-html.pdf#page=44)), definindo id para cada uma das partes anteriores. 
+        * link para uma das páginas da próxima secção grid.
 * O <code>header</code>, configure com <code>display:flex</code>, e faça com que o titulo e nav fiquem cada um encostado a uma lado, com a propriedade <code>justify-content:space-between</code> ([exemplo](https://codepen.io/LucioStuder/pen/oNprRQd))
 * Escolha uma cor de fundo <code>background</code> e do texto <code>color</code> que goste.
 * estilize os hiperlinks <code>a</code> do nav com as seguintes propriedades:
