@@ -46,6 +46,9 @@ Crie uma sequência de elementos:
 
 
 # 2. Imagem com texto sobreposto
+* Escolha uma imagem. Pode usar o [Unsplash](https://unsplash.com/), repositório de imagems de uso livre. Permite 
+   * pedir uma imagem aleatória de acordo com termos de pesquisa e tamanho especificado. Por exemplo, para as palavras "beach sand", 600x400, especifica-se https://source.unsplash.com/random/600×400/?beach,sand . Cada vez que refrescar a sua página terá uma imagem diferente.
+   * escolher imagem. Escolha uma imagem (das free) clique nela e copie do URL o código (unsplash.com/photos/**xg8z_KhSorQ**). Pode especificar a dimensão que pretende (e.g., 300x200). Construa o hiperlink: <img src="https://source.unsplash.com/xg8z_KhSorQ/300x200">
 * Crie um elemento div com <code>position:relative</code>
 * coloque uma imagem com largura 100% por forma a ocupar toda a alrgura  do browser
 * coloque uma frase sobre a imagem usando as propriedades <code>position:absolute</code> e especificando a posição em relação ao topo <code>top</code> e lado esquerdo <code>left</code> (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=22)). 
