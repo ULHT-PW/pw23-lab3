@@ -21,10 +21,7 @@
 # 1. Flex 
 
 * Irá criar uma página onde explorará a propriedade <code>display:flex</code>
-
 * escolha uma fonte Google que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal <code>*</code> e propriedade <code>font-family</code> (veja [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=10))
-
-* defina, no elemento <code>head</code> a configuração para que o website tenha uma boa responsividade (veja [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=9))
 * especifique no style sempre <code>* {box-sizing: border-box; padding: 0; margin: 0;}</code>
 
 ### 1.1. Elemento centrado usando <code>flex</code>
