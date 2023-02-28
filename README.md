@@ -58,7 +58,7 @@ Crie uma sequência de elementos:
 * coloque uma frase sobre a imagem usando as propriedades <code>position:absolute</code> e especificando a posição em relação ao topo <code>top</code> e lado esquerdo <code>left</code> (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=22)). EScolha uma cor para o texto que contraste bem com o fundo.
 
 
-# 3. Capitais europeias usando <code>flex<code>
+# 3. Capitais europeias usando <code>flex</code>
 
 ![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
 
