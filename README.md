@@ -4,6 +4,7 @@
 
 ## Objetivos
 * Aplicar os conceitos aprendidos de propriedades CSS, em especial flexbox e grid.
+* Criar um novo repositório e aplicação no PythonAnyWhere para este laboratório
 
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
@@ -13,31 +14,22 @@
 ## Pré-requisitos
 * Deverá ter o VSCode instalado para editar o código HTML de forma fácil.
 * Deverá ter instalado o git no seu computador.
+* reveja os slides sobre [propriedades CSS](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf) e [flex e grid](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf)
+* explore os exercícios do tutorial [Flexbox froggy](https://flexboxfroggy.com/)
 
 # 1. Tutoriais
 
-* reveja os [slides sobre flex e grid](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf)
-* explore os exercícios do tutorial [Flexbox froggy](https://flexboxfroggy.com/)
 
-# 0. Estruturação do repositório de laboratórios
+# 1. Flex 
 
-1. Clone (descarregue uma cópia) do GitHub para o seu computador o seu repositório com os laboratórios de Programação Web do GitHub:
-    1. abra um processador de comandos (prima a tecla Windows e escreva `cmd` ou `Powershell`)
-    2. escolha a pasta onde quer colocar o repositório (navegando com o comando `cd nome-de-pasta` para entrar numa determinada pasta)
-    3. clone o seu repositório com o comando:
-    ```bash
-    > git clone https://github/seuUserName/pw-labs-nomeapelido-numero
-    ```
-    
-
-# 0. Configuração geral
+* Irá criar uma página onde explorará a propriedade <code>display:flex</code>
 
 * escolha uma fonte Google que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal <code>*</code> e propriedade <code>font-family</code> (veja [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=10))
 
 * defina, no elemento <code>head</code> a configuração para que o website tenha uma boa responsividade (veja [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=9))
 * especifique no style sempre <code>* {box-sizing: border-box; padding: 0; margin: 0;}</code>
 
-# 1. Elemento centrado usando <code>flex</code>
+### 1.1. Elemento centrado usando <code>flex</code>
 
 * Crie um elemento div que tenha largura 100vw e altura 50vh
 * atribua-lhe uma cor de fundo
@@ -45,7 +37,7 @@
 * Configure o tamanho do emoji com a propriedade font-size
 
 
-# 2. Imagem com texto usando <code>position</code>
+### 1.2. Imagem com texto usando <code>position</code>
 
 <img src="https://user-images.githubusercontent.com/42048382/221723524-823851af-f4c9-467c-8d6f-3e3857dbbeed.png" width="300px">
 
@@ -57,7 +49,7 @@
 * coloque uma frase sobre a imagem usando as propriedades <code>position:absolute</code> e especificando a posição em relação ao topo <code>top</code> e lado esquerdo <code>left</code> (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=22)). EScolha uma cor para o texto que contraste bem com o fundo.
 
 
-# 3. Capitais europeias usando <code>flex</code>
+### 1.3. Capitais europeias usando <code>flex</code>
 
 ![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
 
@@ -74,7 +66,7 @@ Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento fle
 
 ![image](https://user-images.githubusercontent.com/42048382/158496390-ad99c24c-dfe8-4030-b662-244a9eaec457.png)
 
-# 4. Cabeçalho <code>header</code> com <code>position:sticky</code>
+### 1.4. Cabeçalho <code>header</code> com <code>position:sticky</code>
 
 * Crie um cabeçalho, elemento <code>header</code>, fixo com a propriedade <code>position:sticky</code> (ver [codepen](https://codepen.io/LucioStuder/pen/popNbpm?editors=1100)).  
 * O <code>header</code> deverá conter:
@@ -91,7 +83,7 @@ Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento fle
         * texto em bold, com  <code>font-weight: bold</code>
 
 
-# Páginas com diferentes layouts usando <code>grid</code>
+# 2. Páginas com diferentes layouts usando <code>grid</code>
 * Explore o CSS grid brincando e alterando o [codepen](https://codepen.io/LucioStuder/pen/popowOY?editors=1100). 
 * O segredo do CSS grid ([slides](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=26)) é:
     * dar um nome <code>grid-area</code> a cada elemento do layout  
@@ -107,22 +99,13 @@ Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento fle
 * usando CSS grid, crie, com o mesmo conteúdo, 6 páginas com layouts diferentes, inspirando-se por exemplo [aqui](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/Common_web_layouts), nos layouts de 2 e 3 colunas.
 * no <code>grid</code> insira 6 links (pode ser apenas um número) para cada uma das páginas, e um sexto para a página Flex. 
 
-
-
-# 6. Submissão
+# 3. Submissão
 
 1. Verifique que todos os links do seu website funcionam devidamente.
-2. Carregue a sua pasta do seu repositório (com as modificações efetuadas) no seu repositório Github através dos seguintes passos:
-    1.  abra o processador de comandos e posicione-se dentro da pasta do seu repositório (`pw-labs-nomeapelido-numero`).
-    2.  escreva as seguintes instruções:
-        * `git add *`
-        * `git commit –m "laboratório 4"`
-        * `git push`
-             * `git add` serve para propor mudaças, incluindo todos os ficheiros e pastas existentes como. o `commit` serve para confirmar as mudanças e que estas fiquem guardadas. o `push` serve para enviar as alterações (upload) para o repositório no GitHub.
-3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
-3. Garanta que os docentes de PW são membros do seu repositório, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos.
+2. Crie um novo repositório GitHub público e carregue o seu laboratório 3.
+3. Crie uma nova conta no pythonAnyWhere, e carregue o seu projeto
 4. Verifique que o seu website online funciona corretamente, em particular mostra todas as imagens e os hiperlinks funcionam devidamente.
-5. Garanta que preencheu o formulário do lab2, [form](https://forms.gle/d5sS3XtaHzRnfzQ87). Como os laboratórios estão todos centralizados num só repositório e aplicação Heroku, os docentes usarão o link submetido para avaliar os vossos trabalhos.
+5. Submeta o dominio da aplicação e link do repositório GitHub.
 
 
  # Fim ☀
