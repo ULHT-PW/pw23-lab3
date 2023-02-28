@@ -38,14 +38,15 @@
 
 Crie uma sequência de elementos:
 
-# 1. Elemento centrado
+# 1. Elemento centrado usando flexbox
+
 * Crie um elemento div que tenha largura 100vw e altura 50vh
 * atribua-lhe uma cor de fundo
 * coloque dentro do div um parágrafo <code>p</code> com a palavra 'Viajar' ou outra palavra ou frase que queira e centre-a no div, usando CSS flex (ser [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=12)). 
 * Configure o tamanho do emoji com a propriedade font-size
 
 
-# 2. Imagem com texto sobreposto
+# 2. Imagem com texto sobreposto usando propriedade position
 
 <img src="https://user-images.githubusercontent.com/42048382/221723524-823851af-f4c9-467c-8d6f-3e3857dbbeed.png" width="300px">
 
@@ -57,7 +58,7 @@ Crie uma sequência de elementos:
 * coloque uma frase sobre a imagem usando as propriedades <code>position:absolute</code> e especificando a posição em relação ao topo <code>top</code> e lado esquerdo <code>left</code> (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=22)). EScolha uma cor para o texto que contraste bem com o fundo.
 
 
-# 1. Capitais europeias com Flexbox
+# 3. Capitais europeias com Flexbox
 
 ![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
 
