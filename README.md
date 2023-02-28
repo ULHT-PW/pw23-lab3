@@ -28,27 +28,7 @@
     ```bash
     > git clone https://github/seuUserName/pw-labs-nomeapelido-numero
     ```
-
-2. Ainda usando a consola crie uma pasta lab4:
-    ```bash
-    > cd pw-labs-nomeapelido-numero
-    > mkdir lab4
-    ```
-
-3. Atualize o ficheiro `index.html`, índice dos seus laboratórios, incluindo na lista dos laboratórios este novo laboratório com um hiperlink para `lab4/index.html`:
-        * Laboratório 4: SPA com layout responsivo baseado em Flexbox e Grid
-
-4. A estrutura da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em baixo:
-```
-pw-labs-nomeapelido-numero
-+-- index.php
-+-- composer.json
-+-- index.html
-+-- lab1
-+-- lab2
-+-- lab3
-+-- lab4
-```
+    
 
 # 0. Configuração geral
 
@@ -56,22 +36,27 @@ pw-labs-nomeapelido-numero
 
 * defina, no elemento <code>head</code> a configuração para que o website tenha uma boa responsividade (veja [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=9))
 
+Crie uma sequência de elementos:
+
+# 1. Elemento centrado
+* Crie um elemento div que tenha largura 100vw e altura 50vh
+* atribua-lhe uma cor de fundo
+* coloque dentro do div um parágrafo <code><p></code> 'Viajar' ou outra palavra ou frase que queira e centre-a no div, usando CSS flex (ser [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=12)). 
+* Configure o tamanho do emoji com a propriedade font-size
+
 
 # 1. Capitais europeias com Flexbox
-
-Crie uma página intitulada capitais.html.
 
 ![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
 
 Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. O código a implementar está em baixo, explicado a seguir:
 * crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw-lab4-2022/blob/main/capitais.zip) 
-* Crie um titulo <code>h1</code> "Capitais europeias".
-* A seguir, crie um *container* flex (elemento <code>div</code> com classe *capitais*, estilizado com a propriedade <code>display: flex</code>)) com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=5))
+* Crie um *container* flex (elemento <code>div</code> com classe *capitais*, com a propriedade <code>display: flex</code>)) e contendo um conjunto de items <code>div</code> (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=5))
 * configure o container por forma a ter uma cor de fundo clara  (veja o [slide 11](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=11))
-* os items serão um conjunto de elementos <code>div</code>, cada um será alusivo a uma capital europeia tal como se descreve a seguir.
+* os items serão um conjunto de elementos <code>div</code>. Cada um será alusivo a uma capital europeia tal como se descreve a seguir.
 * cada item <code>div</code> deverá conter dois elementos <code>div</code>, um com a imagem, e outro com um parágrafo com o nome da capital. 
-* configure os div dentro do container (com a composição de selectors <code>.container div</code>) por forma a terem uma borda e cantos arredondados (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=12))
-* dentro de cada <code>div</code> coloque a imagem do lado esquerdo e do lado direito oum parágrafo com o nome da cidade. para tal, configure ambos com a propriedade <code>display: inline-block</code>(ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=17))
+* configure os div dentro do container (recorrendo à composição de selectores <code>.container div</code>) por forma a terem uma borda e cantos arredondados (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=12))
+* dentro de cada <code>div</code> coloque a imagem do lado esquerdo e do lado direito um parágrafo com o nome da cidade. para tal, configure ambos com a propriedade <code>display: inline-block</code>(ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=17))
 * explore as propriedades <code>flex-flow</code> e <code>justify-content</code> e <code>align-items</code> (ver [slide e links](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=10)) para configurar adequadamente as imagens. Garanta espaçamento entre estas, usando a propriedade <code>margin</code>. 
 * Exemplo de implementação. Deverá entender em detalhe tudo o que é feito em cada selector (são conceitos que saem na frequência).
 
