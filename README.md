@@ -35,8 +35,7 @@
 * escolha uma fonte Google que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal <code>*</code> e propriedade <code>font-family</code> (veja [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=10))
 
 * defina, no elemento <code>head</code> a configuração para que o website tenha uma boa responsividade (veja [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=9))
-
-Crie uma sequência de elementos:
+* especifique no style sempre <code>* {box-sizing: border-box; padding: 0; margin: 0;}</code>
 
 # 1. Elemento centrado usando <code>flex</code>
 
@@ -75,103 +74,40 @@ Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento fle
 
 ![image](https://user-images.githubusercontent.com/42048382/158496390-ad99c24c-dfe8-4030-b662-244a9eaec457.png)
 
-# 2. Cabeçalho
-Observe o cabeçalho em baixo do site [kiwi.com](https://www.kiwi.com/pt)).
+# 4. Cabeçalho <code>header</code> com <code>position:sticky</code>
 
-![image](https://user-images.githubusercontent.com/42048382/158499100-5112973f-dc63-4ca6-a32c-8cd163a46b9f.png)
-
-Crie um cabeçalho semelhante usando flexbox. Para tal:
-* Crie no topo um contentor flexbox classe "menu" para colocar o menu:
-   * do lado esquerdo terá links (âncoras) para os tópicos desta página: *cidades europeias*, *dicas para viajar* e *destinos de sonho*. do lado direito terá um link para os labs de Programação Web (ver [slide 10](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=10)). PAra criar este efeito:
-       * coloque os links dentro de um container com a propriedade <code>display: flex</code>
-       * configure o ultimo link, que pode identificar como <code>.menu a:last-child</code>, com a propriedade <code>margin-left:auto</code>. Isso irá encostar o último elemento à direita do container (para mais detalhes [1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Flexbox#alignment_and_auto_margins))  
-       * estilize o seletor <code>a</code> com as seguintes propriedades:
-           * <code>padding: 20px</code> para que haja espaço à volta de cada palavra
-           * remova a formatação de hiperlink do texto (sublinhado azul), com <code>text-decoration: none</code>.
-           * defina uma cor à fonte
-       * estilize o que acontece quando passa por cima do menu. PAra tal, deverá definir o selector <code>a:hover</code> com as seguintes propriedades:
-           * associe uma cor de fundo, cinza claro, quando passa por cima do link com o rato
-           * ponha o texto em bold, com  <code>font-weight: bold</code>
-* Crie por baixo outro elemento que terá o cabeçalho, elemento flex que incluirá:
-   * imagem de fundo definida como <code>background-image</code> desse <code>div</code> (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
-   * título da página, dentro de um <code>div</code>, e centrado usando flexbox, seguindo o princípio do [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=9) 
+* Crie um cabeçalho, elemento <code>header</code>, fixo com a propriedade <code>position:sticky</code> (ver [codepen](https://codepen.io/LucioStuder/pen/popNbpm?editors=1100)).  
+* O <code>header</code> deverá conter:
+    * <code>h1</code> com um título do lado esquerdo 
+    * <code>nav</code> com links "ancora" para as várias partes da página (ver [exemplo](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.1-html.pdf?time=1677056603525)), e um link para uma página da próxima secção.
+* O <code>header</code>, configure com <code>display:flex</code>, e faça com que o titulo e nav fiquem cada um encostado a uma lado, com a propriedade <code>justify-content:space-between</code> ([exemplo](https://codepen.io/LucioStuder/pen/oNprRQd))
+* Escolha uma cor de fundo <code>background</code> e do texto <code>color</code> que goste.
+* estilize os hiperlinks <code>a</code> do nav com as seguintes propriedades:
+    * <code>padding:20px</code> para que haja espaço à volta de cada palavra
+    * remova a formatação de hiperlink do texto (sublinhado azul), com <code>text-decoration: none</code>.
+    * escolha uma cor para a fonte
+    * estilize o que acontece quando passa por cima do menu. PAra tal, deverá definir o selector <code>a:hover</code> com as seguintes propriedades:
+        * associe uma cor de fundo, cinza claro, quando passa por cima do link com o rato
+        * texto em bold, com  <code>font-weight: bold</code>
 
 
-# 3. Dicas para viajantes
-
-Crie um novo elemento, por baixo das cidades europeias, com dicas para viajantes. Veja um exemplo em baixo.
-
-![image](https://user-images.githubusercontent.com/42048382/158695221-1b8a65b3-102c-4f6f-9e8a-e73f820050f7.png)
-
-Ficará tudo na mesma página. Para tal:
-* compile 8 dicas para viajantes (invente, pesquise na internet, ou veja por exemplo em [1](https://catracalivre.com.br/rede/10-conselhos-para-quem-quer-viajar-o-mundo/),  [2](https://billete996.aireuropa.com/pt-pt/10-dicas-fantasticas-para-viajar-sozinho/), [3](https://foradazonadeconforto.com/10-dicas-para-viajar-com-os-amigos/), [4](https://www.worldpackers.com/pt-BR/articles/como-viajar-com-pouco-dinheiro), [4](https://janelasabertas.com/2015/12/23/conselhos-de-viagem-que-servem-pra-vida/)). Para cada dica deverá ter:
-   * título
-   * descrição curta (2 linhas)
-   * Icone Google, Bootstrap ou Awesome (veja o s[slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=11)) 
-* Crie um titulo <code>h1</code> "Dicas para viajantes".
-* Por baixo, crie um *container* flex (elemento <code>div</code> com classe *dicas*, estilizado com a propriedade <code>display: flex</code>)) com um conjunto de items (veja [slide 6](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=6)), semelhante ao exercicio anterior.
-* cada item será um div com a informação das dicas, o título e ícone num h1 e o texto num elemento p. 
-* no css, configure os divs da classe dicas (<code>.dicas div</code>) com:
-    * um tamanho igual para todos (propriedades width e height)
-    * defina uma borda arredondada e uma sombra, semelhante às caixas das cidades.
-    * um <code>padding: 10px 20px</code> para que o texto não fique colado à moldura (border)
-    * cor de fundo o mesmo azul claro que usou no fundo do container anterior.
-
-# 4. Destinos de sonho com CSS Grid responsivo
-Observe o layout em baixo (fonte: [kiwi.com](https://www.kiwi.com/pt))
-
-![Asymmetric-design](https://user-images.githubusercontent.com/42048382/158484887-93d19749-13b2-41e6-8906-f6322a668b47.jpg)
-
-Usando CSS grid (propriedade <code>display: grid</code>) crie, por debaixo do elemento anterior com dicas para viajantes um elemento replicando o layout encima, mas para 6 destinos em Portugal à sua escolha. Sim, ficará tudo na mesma página pois é uma Single Page Application (SPA). Para tal, siga os seguintes passos:
-
-#### Recolha de informação
-* escolha 5 destinos em Portugal, escolhendo uma fotografia para cada um. As fotos deveráo ser redimensionadas para ser 4 quadradas e uma retangular. Escolha também uma foto alusiva a uma forma económica de férias (dormir na praia, campismo selvagem, dormir ao relento, ...).
-
-* para cada destino, defina texto de forma semelhante à imagem acima: 
-    * tipo do destino
-    * nome do destino
-    * frase convidativa
-    * tipo de destino.
-
-#### Configuração dos items da grid
-* Crie um titulo <code>h1</code> "Destinos de sonho".
-* por baixo, utilizando CSS grid, crie um elemento <code>div</code> com uma classe *destinos*, e dentro deste 6 items <code>div</code> (semelhante ao [slide 23](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=23)).
-* o elemento destinos configure-o para que tenha como cor de fundo o mesmo azul claro que usou no fundo do container cidades. Defina tambem um padding para que os elementos não se encostem à borda da página.
-* em cada um dos 6 items <code>div</code> defina uma classe com nome específico do destino. No CSS, para cada classe:
-   * defina como <code>background-image</code> a foto da do destino (veja o [slide 26](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=26))
-   *  defina uma <code>grid-area</code> com nome da cidade (veja o [slide 23](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=23))
- 
-#### Layout PC 
-* crie uma media query com uma regra min-width = 901px
-* dentro da media query, defina a propriedade <code>grid-template-areas</code>, concebendo o layout dos items semelhante à imagem acima. Garanta algum espaçamento entre estas (propriedade <code>gap</code>).
-
-#### Layout telemóvel
-* crie uma media query com uma regra max-width = 900px
-* dentro da media query, defina a propriedade <code>grid-template-areas</code>, concebendo o layout dos items d forma a que fiquem apenas duas fotos quadradas por linha. Garanta algum espaçamento entre estas (propriedade <code>gap</code>).
-* verifique que a responsividade funciona bem, encolhendo e alargando a página.
-
-#### textos de cada item da foto
-* Use as propriedade <code>position: relative</code> e <code>position: absolute</code> (veja o [slide 35](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=35)) para posicionar cada um dos 3 elementos de texto de cada fotografia como em baixo.
-* escolha um tipo de fonte google giro, bastante grosso e use branco. Garanta que a foto tem contraste permitindo ler o texto.
- 
-![image](https://user-images.githubusercontent.com/42048382/158486562-7b9850dc-1158-46b6-963d-ca79e059940f.png)
-
-* para o item com a sugestão de **"forma económica de férias"** (dormir na praia, campismo selvagem, dormir ao relento, ...) deverá configurar de forma semelhante à imagem inicial, com a foto na parte superior da caixa, existindo por baixo espaço branco para colocar texto (duas frases semelhantes) e um botão. Para tal, crie dentro desse div uma outra grid, com três <code>div</code>: um para a imagem (neste a imagem não fica como background), outro para a frase motivadora, e outro para o botão. 
-* Para o texto (dois parágrafos) e o botão (elemento <code>button</code>, que neste caso não fará nada), cada um no seu div, deverá centrá-los de forma semelhante ao [slide 9](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.6-propriedades-css-flex-grid.pdf#page=9).
+# Páginas com diferentes layouts usando <code>grid</code>
+* Explore o CSS grid brincando e alterando o [codepen](https://codepen.io/LucioStuder/pen/popowOY?editors=1100). 
+* O segredo do CSS grid ([slides](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=26)) é:
+    * dar um nome <code>grid-area</code> a cada elemento do layout  
+    * no contentor grid, com a propriedade <code>displaygrid</code>, caracterizar:
+        * <code>grid-template-areas</code>
+        * <code>grid-template-columns</code> 
+        * <code>grid-template-rows</code>.
+    * Explore a combinação de unidades diferentes, fr, %, vw
+* Crie uma combinação de pelo menos 5 elementos semânticos HTML (header, nav, main, article, aside, footer...):
+    * configure dois elementos com uma cor de fundo diferente e uma palavra a seu gosto
+    * 2 com imagens de fundo (veja o [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf?time=1677539648106#page=5), usando  <code>background-image:url(...)</code> e <code>background-size:cover</code>). 
+    * um elemento <code>grid</code>
+* usando CSS grid, crie, com o mesmo conteúdo, 6 páginas com layouts diferentes, inspirando-se por exemplo [aqui](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/Common_web_layouts), nos layouts de 2 e 3 colunas.
+* no <code>grid</code> insira 6 links (pode ser apenas um número) para cada uma das páginas, e um sexto para a página Flex. 
 
 
-# 5. Página index dos seus laboratórios
-Estilize a seu gosto sua *landing page* (página de entrada) dos seus laboratórios. Em particular:
-* escolha e utilize uma fonte Google
-* utilize algumas propriedades dos slides (font size, style, wheight, variant, e text-decoration, transform, align, leeter-spacing, word-spacing, line-height e vertical-align)
-* escolha cor de fundo
-* coloque o conteúdo num conjunto de elementos semânticos (header, nav, main, footer) para organizar o conteúdo
-* inclua num elemento aside uma wordcloud e posicione-a de lado (se em layout PC) ou por baixo (se em layout telemovel)
-* crie um layout CSS grid a seu gosto para organizar a informação que deverá ser responsivo à largura do ecrã (veja [slide 12](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.7-design-responsivo.pdf#page=12))
-* utilize 5 ícones Google, Bootstrap ou Awesome (veja o s[slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=11)) 
-* Explore as unidades relativas configurar o tamanho das fontes (veja o [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=19))
-* inclua um link para a nova página
- 
 
 # 6. Submissão
 
