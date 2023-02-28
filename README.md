@@ -1,6 +1,6 @@
 **UNIVERSIDADE LUSÓFONA, Programação Web, 22-23**
  
-# Lab 3: *Layouts baseados em grid e flex 💪* 
+# Lab 3: *Layouts baseados em flex e grid* 
 
 ## Objetivos
 * Aplicar os conceitos aprendidos de propriedades CSS, em especial flexbox e grid.
