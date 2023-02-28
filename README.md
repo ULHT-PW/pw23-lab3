@@ -1,6 +1,6 @@
-**PROGRAMAÇÃO WEB - aplicações web por perfeccionistas criativos**
+**UNIVERSIDADE LUSÓFONA, Programação Web, 22-23**
  
-# Lab 3: *Layouts baseados em Flexbox e Grid* 
+# Lab 3: *Layouts baseados em grid e flex 💪* 
 
 ## Objetivos
 * Aplicar os conceitos aprendidos de propriedades CSS, em especial flexbox e grid.
